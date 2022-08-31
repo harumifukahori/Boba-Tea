@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boba Tea (Landing Page)</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="boba-tlogo.svg" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Normal tea? No!<br> Try our<span> MILK TEA</span></h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                   Deserunt perspiciatis numquam facilis iusto alias quos, eos voluptatum corrupti.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="imgBox">
+                    <img src="iconboba2.svg" class="milktea">
+                </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="iconboba2.svg" onclick="imgSlider('iconboba2.svg');changeCircleColor('#eeb957')"</li>
+            <li><img src="iconboba1.svg" onclick="imgSlider('iconboba1.svg');changeCircleColor('#eb7495')"/</li>
+            <li><img src="iconboba3.svg" onclick="imgSlider('iconboba3.svg');changeCircleColor('#50a565')"</li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="facebook 1.svg"</a></li>
+            <li><a href="#"><img src="instagram 1.svg"</a></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.milktea').src = anything;
+        }
+
+        function changeCircleColor(color) {
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+    </script>
+</body>
+
+</html>
+
+</html>
