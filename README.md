@@ -1,5 +1,6 @@
 # Landing Page responsiva para Boba Tea
 - Projeto adaptável e em construção para fins de estudo e portfólio
+- Foi usado a linguagem inglesa para treino do idioma.
 
 # Update
 - Adicionando botões responsivos nos sabores do Boba Tea.
